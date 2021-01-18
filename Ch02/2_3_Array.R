@@ -1,0 +1,19 @@
+#날짜 : 2021/01/18
+#이름 : 박준우
+#내용 : Ch02, 데이터유형과 구조 - Array 자료구조 p69
+
+arr <- array(1:5)
+arr
+arr[1]
+
+arr2d <- array(1:6, c(2,3))
+arr2d
+
+#교재 p69 실습 - 배열 객체 생성하기
+vec <- c(1:12)
+arr <- array(vec, c(3, 2, 2))
+arr
+#교재 p69 실습 - 배열 객체의 자료 조회하기
+arr[,,1]
+arr[,,2]
+mode(arr);class(arr)
